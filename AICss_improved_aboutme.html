@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Quint | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #1e293b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #cbd5f5;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            border: 4px solid #1e293b;
+        }
+
+        section {
+            margin-top: 25px;
+        }
+
+        h2,
+        h3 {
+            margin-bottom: 10px;
+            color: #1e293b;
+        }
+
+        ul,
+        ol {
+            margin-left: 20px;
+        }
+
+        form {
+            margin-top: 10px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="radio"] {
+            width: auto;
+            margin-right: 5px;
+        }
+
+        button {
+            background: #1e293b;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background: #334155;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Welcome to My Portfolio</h2>
+        <p>Learning Web Development</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="newabout.html">AI Page</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>All About Me</h1>
+
+        <img src="images/Man_Silhouette_PNG_Clipart.png" alt="Profile silhouette" height="200">
+
+        <section>
+            <h2>Michael Quint</h2>
+            <p>
+                Hello! My name is Michael. I am learning computer coding and software engineering.
+                This is my portfolio page as I grow my skills.
+            </p>
+        </section>
+
+        <section>
+            <h3>Interests</h3>
+            <ul>
+                <li>Books</li>
+                <li>Movies</li>
+                <li>Animals</li>
+                <li>Spending time with people I enjoy</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Favorite Foods</h3>
+            <ol>
+                <li>Pizza</li>
+                <li>Tacos</li>
+                <li>Pretzels</li>
+                <li>Nuts</li>
+                <li>Popcorn</li>
+            </ol>
+        </section>
+
+        <section>
+            <h3>Contact Me</h3>
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Create a Password" required>
+
+                <p>Age:</p>
+                <label><input type="radio" name="age"> Under 21</label>
+                <label><input type="radio" name="age"> 21 or over</label>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Michael Quint</p>
+    </footer>
+
+</body>
+
+</html>
