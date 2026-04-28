@@ -2,17 +2,21 @@
 <html lang="en">
 
 <head>
+    <!-- Basic page setup -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michael Quint | Portfolio</title>
 
+    <!-- Internal CSS styling -->
     <style>
+        /* Reset default browser styles */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
+        /* Page body styling */
         body {
             font-family: Arial, sans-serif;
             background: #f4f6f8;
@@ -20,6 +24,7 @@
             line-height: 1.6;
         }
 
+        /* Header section */
         header {
             background: #1e293b;
             color: white;
@@ -27,6 +32,7 @@
             text-align: center;
         }
 
+        /* Navigation bar */
         nav {
             margin-top: 10px;
         }
@@ -38,10 +44,12 @@
             font-weight: bold;
         }
 
+        /* Navigation hover effect */
         nav a:hover {
             color: white;
         }
 
+        /* Main content container */
         main {
             max-width: 900px;
             margin: 30px auto;
@@ -51,11 +59,13 @@
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
 
+        /* Main heading */
         h1 {
             text-align: center;
             margin-bottom: 20px;
         }
 
+        /* Profile image styling */
         img {
             display: block;
             margin: 0 auto 20px;
@@ -63,25 +73,30 @@
             border: 4px solid #1e293b;
         }
 
+        /* Section spacing */
         section {
             margin-top: 25px;
         }
 
+        /* Section headings */
         h2,
         h3 {
             margin-bottom: 10px;
             color: #1e293b;
         }
 
+        /* Lists styling */
         ul,
         ol {
             margin-left: 20px;
         }
 
+        /* Form styling */
         form {
             margin-top: 10px;
         }
 
+        /* Input fields */
         input {
             width: 100%;
             padding: 10px;
@@ -90,11 +105,13 @@
             border: 1px solid #ccc;
         }
 
+        /* Radio buttons override */
         input[type="radio"] {
             width: auto;
             margin-right: 5px;
         }
 
+        /* Submit button */
         button {
             background: #1e293b;
             color: white;
@@ -105,10 +122,12 @@
             margin-top: 10px;
         }
 
+        /* Button hover effect */
         button:hover {
             background: #334155;
         }
 
+        /* Footer styling */
         footer {
             text-align: center;
             padding: 15px;
@@ -120,9 +139,12 @@
 
 <body>
 
+    <!-- Header with title and navigation -->
     <header>
         <h2>Welcome to My Portfolio</h2>
         <p>Learning Web Development</p>
+
+        <!-- Navigation links -->
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
@@ -130,11 +152,14 @@
         </nav>
     </header>
 
+    <!-- Main content area -->
     <main>
         <h1>All About Me</h1>
 
+        <!-- Profile image -->
         <img src="images/Man_Silhouette_PNG_Clipart.png" alt="Profile silhouette" height="200">
 
+        <!-- About section -->
         <section>
             <h2>Michael Quint</h2>
             <p>
@@ -143,6 +168,7 @@
             </p>
         </section>
 
+        <!-- Interests section -->
         <section>
             <h3>Interests</h3>
             <ul>
@@ -153,6 +179,7 @@
             </ul>
         </section>
 
+        <!-- Favorite foods section -->
         <section>
             <h3>Favorite Foods</h3>
             <ol>
@@ -164,22 +191,31 @@
             </ol>
         </section>
 
+        <!-- Contact form section -->
         <section>
             <h3>Contact Me</h3>
             <form>
+                <!-- Text input -->
                 <input type="text" placeholder="Name" required>
+
+                <!-- Email input -->
                 <input type="email" placeholder="Email" required>
+
+                <!-- Password input -->
                 <input type="password" placeholder="Create a Password" required>
 
+                <!-- Radio buttons -->
                 <p>Age:</p>
                 <label><input type="radio" name="age"> Under 21</label>
                 <label><input type="radio" name="age"> 21 or over</label>
 
+                <!-- Submit button -->
                 <button type="submit">Submit</button>
             </form>
         </section>
     </main>
 
+    <!-- Footer -->
     <footer>
         <p>© 2026 Michael Quint</p>
     </footer>
